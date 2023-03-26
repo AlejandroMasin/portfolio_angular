@@ -1,0 +1,21 @@
+.simplescrollup__button {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    transition: 700ms all;
+    z-index: 10000;
+    -webkit-transition: 700ms all;
+    -moz-transition: 700ms all;
+    -ms-transition: 700ms all;
+    -o-transition: 700ms all;
+}
+
+#irArriba {
+    cursor: pointer;
+}
+  .simplescrollup__button--show {
+    transform: translateX(0);
+  }
+  .simplescrollup__button--hide {
+    transform: translateX(100px);
+  }

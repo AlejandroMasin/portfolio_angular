@@ -1,0 +1,127 @@
+{
+    "id": "1",
+	"name": "Ale",
+	"password": "123456",
+    "nombre": "Alejandro",
+    "apellido": "Masin",
+    "descripcion": "Programador y profesor informático",
+    "image_background_header": "https://www.ticarte.com/sites/su/styles/large/public/users/7/teaser/javascript-code.jpg",
+    "image_perfil": "https://cdn-icons-png.flaticon.com/512/1995/1995515.png",
+    "acerca_de":"¡Hola! Soy Alejandro Masin. Me apasiona apasiona la tecnologia y el desarrollo web. Soy programador y profesor informático de las principales herramientas de Microsoft Office y de AutoCAD.",
+    "edad": "32",
+    "email": "email@gmail.com",
+    "telefono": "+543482-226690",
+    "direccion": "Reconquista, Santa Fe, ARG",
+    "trabajos": [
+		{
+			"posicion": "University professor",
+			"empresa": "at UTN Facultad Regional Reconquista",
+			"fecha": "2023-Present",
+			"descripcion": "User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment."
+		},
+		{
+			"posicion": "Junior Web Developer",
+			"empresa": "at Indie Studio",
+			"fecha": "2022-Present",
+			"descripcion": "User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment."
+		},
+		{
+			"posicion": "Profesor Informatico",
+			"empresa": "en ICIR",
+			"fecha": "2015-Present",
+			"descripcion": "Dictando cursos de AutoCAD 2D/3D, Operador de PC, Diseño Gráfico y Diseño Web"
+		},
+		{
+			"posicion": "Desarrollador Web",
+			"empresa": "en Crosetto Ingeniería SA",
+			"fecha": "2019-2020",
+			"descripcion": "Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition."
+		},
+		{
+			"posicion": "Profesor informatico",
+			"empresa": "en Applet Computación",
+			"fecha": "2013",
+			"descripcion": "Cursos de AutoCAD y Office"
+		}
+	],
+    "educacion": [
+		{
+			"titulo": "Profesorado de Educación Secundaria de la Modalidad Técnico Profesional en Concurrencia con el Título de Base",
+			"escuela": "Universidad del Gran Rosario (UGR)",
+			"inicio_fin": "2019-Actualidad",
+			"imagen": "https://i.postimg.cc/vZKX85DT/descargar-12.png"
+		},
+		{
+			"titulo": "Técnicatura Superior en Programación",
+			"escuela": "Universidad Tecnológica Nacional (UTN) Facultad Regional Reconquista",
+			"inicio_fin": "2008-2011",
+			"imagen": "https://i.postimg.cc/vT8SxbyZ/Img-Logo-UTN.png"
+		},
+		{
+			"titulo": "Educacion Polimodal Modalidad: Humanidades y Ciencias Sociales",
+			"escuela": "Escuela Provincial de Nivel Medio Nº 9 Doctor Vicente López y Planes",
+			"inicio_fin": "2002-2007",
+			"imagen": "https://i.postimg.cc/8P9rj4d2/logo-epesn9.jpg"
+		}
+	],
+    "skills": [
+		{
+			"conocimiento": "HTML",
+			"porcentaje": "90"
+		},
+		{
+			"conocimiento": "CSS",
+			"porcentaje": "85"
+		},
+		{
+			"conocimiento": "JavaScript",
+			"porcentaje": "75"
+		},
+		{
+			"conocimiento": "Word",
+			"porcentaje": "90"
+		},
+		{
+			"conocimiento": "Excel",
+			"porcentaje": "85"
+		},
+		{
+			"conocimiento": "AutoCAD",
+			"porcentaje": "75"
+		},
+		{
+			"conocimiento": "SVG",
+			"porcentaje": "50"
+		},
+		{
+			"conocimiento": "Angular",
+			"porcentaje": "50"
+		}
+	],
+    "proyectos": [
+		{
+			"nombre": "Pagina web Portfolio",
+			"empresa": "para Argentina Programa",
+			"fecha": "2023",
+			"descripcion": "Portfolio. Trabajo final para Argentina Programa"
+		},
+		{
+			"nombre": "Pagina web institutoicir.com.ar",
+			"empresa": "para Instituto ICIR",
+			"fecha": "2021-2023",
+			"descripcion": "El Instituto de Computación Integral Reconquista (ICIR) es una empresa familiar que tiene sus inicios en el 2008, el mismo es fundado con el fin de brindar el servicio de capacitación en informática para todas las edades."
+		}
+	],
+	"Pass":
+		{
+			"usuario": "",
+			"contrasenia": ""
+		},
+	"redes":
+		{
+			"twitter": "https://twitter.com/#",
+			"facebook": "https://www.facebook.com/#",
+			"instagram": "https://www.instagram.com/#",
+			"github": "https://github.com/Alemasin1990"
+		}
+}

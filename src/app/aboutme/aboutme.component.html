@@ -1,0 +1,82 @@
+<body id="top">
+
+
+    <div class="page-content">
+      <div class="container">
+        <img id="btnBackground" class="btnEdicion" width="25px" src="assets/img/pen-to-square-solid.svg" alt="">
+        <input id="inputBackground" oninput="modificarBackground(this.value)" type="text" class="inputEdit" placeholder="reemplazar la url del fondo"  style="width:500px">
+  <div class="cover shadow-lg bg-white">
+  <div id="imgBackground" class="cover-bg p-3 p-lg-4 text-white">
+    <div class="row">
+      <div class="col-lg-4 col-md-5">
+        <img id="btnAvatar" class="btnEdicion" width="25px" src="assets/img/pen-to-square-solid.svg" alt="">
+        <input id="inputAvatar" oninput="modificarAvatar(this.value)" type="text" class="inputEdit" placeholder="reemplazar la url del avatar"  style="width:300px">
+        <div class="avatar hover-effect bg-white shadow-sm p-1">
+          <img id="imgAvatar" src="https://cdn-icons-png.flaticon.com/512/1995/1995515.png" width="200" height="200"/>
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-7 text-center text-md-start">
+  
+  
+        <!-- Nombre y Descripcion -->
+        <img id="btnNombre" class="btnEdicion" width="25px" src="assets/img/pen-to-square-solid.svg" alt="">
+        <h2 id="textNombre" class="h1 mt-2">ALEJANDRO MASIN
+        </h2>
+        <input id="inputNombre" oninput="modificarNombre(this.value)" type="text" class="inputEdit" placeholder="reemplazar el nombre"  style="width:200px">
+        <img id="btnDescripcion" class="btnEdicion" width="25px" src="assets/img/pen-to-square-solid.svg" alt="">
+        <p id="textDescripcion">Programador y profesor informático
+        </p>
+        <input id="inputDescripcion" oninput="modificarDescripcion(this.value)" type="text" class="inputEdit" placeholder="reemplazar la descripcion"  style="width:200px">
+  
+        <div class="d-print-none">
+          <a type="button" class="btn btn-light text-dark shadow-sm mt-1 me-1" id="crearpdf">Download CV</a>
+          <a class="btn btn-success shadow-sm mt-1" href="#contact">Contáctame</a>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  <div class="about-section pt-4 px-3 px-lg-4 mt-1">
+    <div class="row">
+      <div class="col-md-6">
+        <!-- About Me / Sobre Mi -->
+        <h2 class="h3 mb-3">About Me
+          <img id="btnAboutMe" class="btnEdicion" width="25px" src="assets/img/pen-to-square-solid.svg" alt="">
+        </h2>
+        <p id="textAcercade">
+          ¡Hola! Soy Alejandro Masin. Me apasiona apasiona la tecnologia y el desarrollo web. Soy programador y profesor informático de las principales herramientas de Microsoft Office y de AutoCAD.
+        </p>
+        <input id="inputAboutMe" oninput="modificarAcercade(this.value)" type="text" class="inputEdit" placeholder="reemplazar sobre mi"  style="width:500px">
+        <input type="file" id="file1" onchange="showFile(this)">
+      </div>
+      <div class="col-md-5 offset-md-1">
+        <div class="row mt-2">
+          <div class="col-sm-4">
+            <div class="pb-1">Age</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">32</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="pb-1">Email</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">email@gmail.com</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="pb-1">Phone</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">+543482-226690</div>
+          </div>
+          <div class="col-sm-4">
+            <div class="pb-1">Address</div>
+          </div>
+          <div class="col-sm-8">
+            <div class="pb-1 text-secondary">Reconquista, Santa Fe, ARG</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="d-print-none"/>
